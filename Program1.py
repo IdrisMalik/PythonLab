@@ -1,4 +1,4 @@
-//Test Average//
+#Test Average
 m1 = int(input("Enter marks for test1 : "))
 m2 = int(input("Enter marks for test2 : "))
 m3 = int(input("Enter marks for test3 : "))
@@ -10,7 +10,7 @@ elif m3 <= m1 and m2 <= m2:
  avgMarks = (m1+m2)/2
 print("Average of best two test marks out of three test’s marks is", avgMarks);
 
-//Palindrome//
+#Palindrome
 val = int(input("Enter a value : "))
 str_val = str(val)
 if str_val == str_val[::-1]:

@@ -1,4 +1,4 @@
-//Sentence Statistics//
+#Sentence Statistics
 sentence = input("Enter a sentence : ")
 wordList = sentence.split(" ")
 print("This sentence has", len(wordList), "words")
@@ -12,7 +12,7 @@ for ch in sentence:
  loCnt += 1
 print("This sentence has", digCnt, "digits", upCnt, "upper case letters", loCnt,"lower case letters")
 
-//String Similarity//
+#String Similarity
 str1 = input("Enter String 1 \n")
 str2 = input("Enter String 2 \n")
 if len(str2) < len(str1):

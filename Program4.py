@@ -1,4 +1,4 @@
-//Insertion Sort & Merge Sort//
+#/nsertion Sort & Merge Sort
 import random
 def merge_sort(lst):
  if len(lst) > 1:
@@ -50,7 +50,7 @@ print("Sorting using Merge Sort")
 merge_sort(my_list)
 print(my_list)
 
-//Covert Roman Number to Integer Numbers//
+#Covert Roman Number to Integer Numbers
 def roman2Dec(romStr):
  roman_dict ={'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
  romanBack = list(romStr)[::-1]

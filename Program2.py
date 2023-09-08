@@ -1,4 +1,4 @@
-//Fibonacci Sequence//
+#Fibonacci Sequence
 def fn(n):
  if n == 1:
  return 0
@@ -6,14 +6,13 @@ def fn(n):
  return 1
  else:
  return fn(n-1) + fn(n-2)
-
 num = int(input("Enter a number : "))
 if num > 0:
  print("fn(", num, ") = ",fn(num) , sep ="")
 else:
  print("Error in input")
 
-//Base Conversion//
+#Base Conversion
 def bin2Dec(val):
  rev=val[::-1]
  dec = 0
@@ -40,7 +39,6 @@ def oct2Hex(val):
  else:
  nl.append(chr(ord('A') + (elem -10)))
  hex = "".join(nl)
-
  return hex
 num1 = input("Enter a binary number : ")
 print(bin2Dec(num1))
